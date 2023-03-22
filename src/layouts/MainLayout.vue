@@ -133,11 +133,11 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style lang="scss">
 .header-image {
   height: 100%;
   z-index: -1;
   opacity: 0.2;
-  filter: grayscale();
+  filter: grayscale;
 }
 </style>
