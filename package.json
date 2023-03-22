@@ -5,11 +5,12 @@
   "productName": "Quasar App",
   "author": "Joseph <josephvincentlimbaroc@gmail.com>",
   "private": true,
+  "homepage": "https://itsjosephvincent.github.io/quasar/",
   "scripts": {
     "dev": "quasar dev",
     "build": "quasar build",
     "build:pwa": "quasar build -m pwa",
-    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
